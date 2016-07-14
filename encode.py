@@ -1,4 +1,4 @@
-key = "123456789012345678901234567890"
+key = "123"
 
 fin = open("hamlet.txt")
 ham = fin.read()
@@ -9,3 +9,4 @@ for i in range(len(ham)):
     
 fout = open("hamlet-xor.txt", 'wb')
 fout.write(new_ham)
+fout.close()
