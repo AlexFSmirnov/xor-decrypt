@@ -1,5 +1,5 @@
 help_message = """
-XOR-decode is a simple tool which allows you to find a key for a xor cipher,
+XOR-decrypt is a simple tool which allows you to find a key for a xor cipher,
 using which some text was encrypted. Is automatically finds the length of the 
 key, and the key itself.
 
@@ -15,17 +15,17 @@ Options:
 
 Usage:
  You can combine the options as you wish, but here are the most handy ones:
-  To find the key automatically and decode the text:
-    xor-decode.py -i "i.txt" -o "o.txt" -m 32 -f 32 -d
+  To find the key automatically and decrypt the text:
+    xor-decrypt.py -i "i.txt" -o "o.txt" -m 32 -f 32 -d
     
   To find most probable key lengths and keys:
-    xor-decode.py -i "i.txt" -m 32 -f 32
+    xor-decrypt.py -i "i.txt" -m 32 -f 32
 
   To find the key with a given length:
-    xor-decode.py -i "i.txt" -l 10 -f 32
+    xor-decrypt.py -i "i.txt" -l 10 -f 32
 
   To decode the text with the given key:
-    xor-decode.py -i "i.txt" -o "o.txt" -k 123 -d
+    xor-decrypt.py -i "i.txt" -o "o.txt" -k 123 -d
 
 """
 from sys import argv
