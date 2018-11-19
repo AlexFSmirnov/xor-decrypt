@@ -1,6 +1,6 @@
 # xor-decrypt
 ## Description
-XOR-decrypt is a simple tool which allows you to find a key for a xor cipher, using which some text was encrypted. Is automatically finds the length of the key, and the key itself. 
+XOR-decrypt is a simple tool which allows you to find a key for a xor cipher, using which some text was encrypted. It automatically finds the length of the key, and the key itself. 
 During the work it shows you all probable key lengths, probable keys and decrypted text samples.
 
 ## Options
