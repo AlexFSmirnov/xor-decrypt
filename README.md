@@ -9,7 +9,7 @@ During the work it shows you all probable key lengths, probable keys and decrypt
   * **-m --maxlen**           The maximum length of the key.
   * **-l --keylen**           The length of the key.
   * **-k --key**              The key for the xor cipher.
-  * **-f --most-frequent**    The most frequent byte in the given file type.
+  * **-f --most-frequent**    The most frequent byte in the decrypted version of the given file type.
   * **-d --decrypt**          Decrypt the file and save to output.
   * **-h --help**             Show this message.
 
