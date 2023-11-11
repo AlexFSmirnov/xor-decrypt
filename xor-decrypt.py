@@ -145,8 +145,8 @@ if maxlen:   # Find keylens and keys.
 if keylen:   # Find a key with a given keylen.
     key = findXorKey(source_text, keylen, most_frequent)
     print("Found a key:", key.decode("utf-8"))
-    print("Decrypted text sample:", decrypt(source_text[:50], 
-                                            key).decode("utf-8"))
+    print("Decrypted text sample:", decrypt(source_text[:50], key).decode("utf-8", errors='replace'))
+
     
 if do_decrypt:  # Decrypt a text with a given/found key.
     with open(output_file, 'wb') as fout: fout.write(decrypt(source_text, key))
